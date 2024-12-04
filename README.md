@@ -5,4 +5,4 @@ This would allow me to set a bool to decide which of the functions was called in
 For my object pool I simply made a pool of hiden objects when I start the game then I have a random set of integers that gets lower as the levels increase if the random number equals 1 then I spawn a game object in a random range
 then call the code to launch the game object into the sky where it can then collide with the collider of the reticle to die if the player is pressing space to mimic the player shooting.
 
-Lastly I made an observer that watches the players points and will modify its subscribers if there is a change in the points that either A execeds one of the high scores or B it will always update current points
+Lastly I made an observer that watches the players points and will modify its subscribers if there is a change in the points in the reticle script that either A execeds one of the high scores or B it will always update current points it does this by going through a list of ints to see if the points are higher then by going through a list of Texts to change them based on those changes
